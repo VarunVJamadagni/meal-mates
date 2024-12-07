@@ -28,7 +28,7 @@
   "name": "food-delivery",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShahAnuj2610/tomato-food-delivery.git"
+    "url": "https://github.com/VarunVJamadagni/meal-mates.git"
   },
   "scripts": {
     "client-install": "npm install --prefix client",

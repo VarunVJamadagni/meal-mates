@@ -41,10 +41,10 @@ app.use("/api/meals", meals);
 app.use("/api/orders", orders);
 
 // Serve static assets if in production
-app.use(express.static("D:/Varun/tomato-food-delivery/client/public/index.html"));
+app.use(express.static("D:/Varun/meal-mates/client/public/index.html"));
 
   app.get("*", (req, res) => {
-    res.sendFile(path.resolve("D:/Varun/tomato-food-delivery/client/public/index.html"));
+    res.sendFile(path.resolve("D:/Varun/meal-mates/client/public/index.html"));
   });
 
 const port = process.env.PORT || 5000;
